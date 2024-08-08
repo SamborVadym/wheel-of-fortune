@@ -1,0 +1,57 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+canvas {
+  margin: 20px auto;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.add {
+  margin-top: 20px;
+}
+
+.add input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.add button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.list {
+  margin-top: 20px;
+  position: absolute;
+  width: 200px;
+  top: 0;
+  right: 0;
+}
+
+.item {
+  margin: 5px;
+  position: relative;
+}
+
+.remove-button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
